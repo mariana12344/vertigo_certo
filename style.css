@@ -125,21 +125,38 @@ main {
     header {
         background: none;
         justify-content: flex-start;
-        padding-inline: 7rem;
+        margin: 2.5rem 7rem 7rem;
+
+        height: fit-content;
+      
     }
 
     header img {
         width: 10rem;
     }
     main {
-        padding-inline: 7rem;
+        margin-inline: 7rem;
+        max-width: 24rem;
+        padding: 0;
     }
 
     .conteudo{
         width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     .bg-desktop {
         display: block;
         width: 100%;
+    }
+
+    .descricao h1 {
+        font-size: 2.25rem;
+    }
+
+    .descricao p {
+        font-size: 1rem;
+        color:var(--gray-400) ;
     }
 }
